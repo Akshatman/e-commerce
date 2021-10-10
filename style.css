@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+:root {
+    --gradient: linear-gradient(
+        to right,
+        rgb(45, 41, 240),
+        rgb(28, 35, 145),
+        
+        
+        rgb(65, 17, 155),
+        rgb(65, 17, 155),
+        rgb(65, 17, 155),
+        rgb(151, 109, 230),
+        
+        white,
+        
+        rgb(152, 112, 226),
+        rgb(115, 29, 214),
+        rgb(115, 29, 214),
+        rgb(115, 29, 214),
+        rgb(57, 65, 185),
+        rgb(0, 68, 255),
+        rgb(0, 68, 255),
+        
+        
+        rgb(0, 68, 255),
+        rgb(64, 170, 219),
+        rgb(3, 227, 243),
+        rgb(3, 227, 243),
+        rgb(7, 112, 231)
+       );
+}
+@keyframes aks{
+    from{background-position: right}
+    to{background-position: left;}
+
+}
+@keyframes gou{
+    from{transform: translate(0vw);}
+    to{transform: translate(-122vw);}
+
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(0, 0, 0);
+}
+footer{
+    height: 10vh;
+    background-color: var(--main-bg-color);
+    color: black;
+    font-family: 'Lato', sans-serif;
+    background-image: var(--gradient);
+    background-size: 300%;
+    animation: aks 15s  infinite alternate;
+}
+nav{
+    display: inline-flex;
+}
+nav ul li{
+    list-style: none;
+    padding: 0px 23px;
+}   
+.slider{
+    display: flex;
+    overflow: hidden;
+}
+
+
+
+.snd{
+    animation: gou 20s 1s infinite alternate;
+
+}
+
+
+nav ul{
+    height: 58px;
+    display: flex;
+    align-items: center;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+nav ul li a:hover{
+    font-weight: bold;
+    color: rgb(133, 133, 134);
+}
+nav ul li:hover{
+    font-weight: bold;
+    color: rgb(133, 133, 134);
+    cursor: pointer;
+}
+header{ 
+    background-image: var(--gradient);
+    background-size: 300%;
+    font-family: arial;
+    font-weight: bold;
+    animation: aks 15s  infinite alternate;
+       }
+.logo{
+    display: flex;
+    align-items: center;
+    
+
+}
+.card-item img{
+    width: 200px;
+height: 300px;
+}
+.logo img{
+
+    padding: 0 25px;
+    border-radius: 29%;
+}
+.container{
+    min-height: calc(100vh - 58px - 12vh);
+}
+.btn{
+    padding: 5px 10px;
+    color: white;
+    background-color: var(--main-bg-color);
+    border: 2px solid white;
+    border-radius: 7px;
+    cursor: pointer;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+}
+
+.card{
+    max-width: 91vw;
+   margin: 2vw 4vw 2vw 2vw;
+    font-family: arial;
+}
+.my-1{
+    margin: 5px 0;
+    width: 200px;
+    text-align: center;
+    
+    
+
+    
+}
+.lines{
+    position: relative;
+    
+    top: -5vw;
+background-color: black;
+opacity: 77%;
+height: 78px;
+
+}
+.card h2{
+    color: rgb(255, 255, 255);
+    margin: 26px 0;
+    
+}
+.text-center{
+    text-align: center;
+    font-weight: bold;
+}
+.card-item{
+    
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 15px;
+}
+.cards{
+    color: White;
+    display: flex;
+    overflow: hidden;
+    margin: 15px auto;
+    flex-wrap: wrap;
+    font-family: arial;
+    
+}
+nav ul li{
+    color: white;
+}
+nav ul li a{
+    color: white;
+}
+
+
+
